@@ -1,4 +1,4 @@
-import Augmented from "augmentedjs-next";
+import { isObject } from "next-core-utilities";
 
 /**
  * Widgets and small presentation modules
@@ -58,7 +58,7 @@ class Widget {
       list.setAttribute("data-" + binding, id);
     }
 
-    if (data && Augmented.isObject(data)) {
+    if (data && isObject(data)) {
       keys = Object.keys(data);
       l = keys.length;
       for (i = 0; i < l; i++) {

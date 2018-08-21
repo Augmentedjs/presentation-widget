@@ -1,6 +1,6 @@
 {
   "name": "presentation-widget",
-  "version": "2.5.3",
+  "version": "2.5.4",
   "description": "The Augmented.js Next - Presentation Application Module.",
   "main": "dist/presentation-widget.js",
   "scripts": {
@@ -44,7 +44,7 @@
     "webpack-cli": "^2.1.5"
   },
   "dependencies": {
-    "augmentedjs-next": "^2.2.0"
+    "next-core-utilities": "^2.5.5"
   },
   "bugs": {
     "url": "https://github.com/Augmentedjs/presentation-widget/issues"
