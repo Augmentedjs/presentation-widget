@@ -5,13 +5,10 @@ const dom = (new JSDOM('<!doctype html><html><body><article><section id="header"
 global.document = dom.document;
 global.window = dom.window;
 global.navigator = {
-  userAgent: 'node.js'
+  userAgent: "node.js"
 };
 
-const sinon = require("sinon");
-global.XMLHttpRequest = sinon.useFakeXMLHttpRequest();
-
-global.Widget = require("../dist/presentation-widget.js");
+global.Lib = require("../src/index.js");
 
 const chai = require("chai");
 global.chai = chai;

@@ -9,24 +9,25 @@ Augmented.js Presentation Widget Module
 ### Table of Contents
 
 -   [Widget](#widget)
--   [List](#list)
-    -   [Parameters](#parameters)
--   [DescriptionList](#descriptionlist)
-    -   [Parameters](#parameters-1)
--   [DataList](#datalist)
-    -   [Parameters](#parameters-2)
--   [Input](#input)
-    -   [Parameters](#parameters-3)
+    -   [List](#list)
+        -   [Parameters](#parameters)
+    -   [DescriptionList](#descriptionlist)
+        -   [Parameters](#parameters-1)
+    -   [DataList](#datalist)
+        -   [Parameters](#parameters-2)
+    -   [Input](#input)
+        -   [Parameters](#parameters-3)
+        -   [Examples](#examples)
 
 ## Widget
 
 Widgets and small presentation modules
 
-## List
+### List
 
 List widget - renders a standard list
 
-### Parameters
+#### Parameters
 
 -   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id of the parent to attach the list
 -   `data` **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** The data to render
@@ -35,11 +36,11 @@ List widget - renders a standard list
 
 Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)** Returns a DOM element as a list
 
-## DescriptionList
+### DescriptionList
 
 DescriptionList widget - renders a description list
 
-### Parameters
+#### Parameters
 
 -   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id of the parent to attach the list
 -   `data` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** The data to render
@@ -47,11 +48,11 @@ DescriptionList widget - renders a description list
 
 Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)** Returns a DOM element as a description list
 
-## DataList
+### DataList
 
 DataList widget - renders a data list
 
-### Parameters
+#### Parameters
 
 -   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id of the parent to attach the list
 -   `data` **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** The data to render
@@ -59,11 +60,11 @@ DataList widget - renders a data list
 
 Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)** Returns a DOM element as a data list
 
-## Input
+### Input
 
 Input widget - renders an input or simular based on type
 
-### Parameters
+#### Parameters
 
 -   `field` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Field property object (required)
 -   `name` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The name of the field
@@ -71,5 +72,21 @@ Input widget - renders an input or simular based on type
 -   `id` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The id of the field
 -   `required` **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** If the field is required
 -   `binding` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The binding (used for decorator and optional)
+
+#### Examples
+
+```javascript
+field object format:
+{
+  "description": "Something",
+  "type": "string", // string, number, integer, boolean, object (can be an array), email, uri, date-time
+  "minimum": 0,
+  "maximum": 85,
+  "format": "email", // optional
+  "pattern": "[A-Za-z]", // any regex
+  "value": "bubba",
+  "enum": [ "something", ... ]
+}
+```
 
 Returns **[Element](https://developer.mozilla.org/docs/Web/API/Element)** Returns a DOM element as an input

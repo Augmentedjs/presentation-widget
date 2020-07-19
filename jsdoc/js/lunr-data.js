@@ -64,9 +64,64 @@ window.lunrData = {
           "present",
           "small",
           "widget"
+        ],
+        "Widget.html#.List": [
+          "bind",
+          "data",
+          "function",
+          "id",
+          "list",
+          "lt;static&gt",
+          "order",
+          "render",
+          "standard",
+          "widget",
+          "widget.list"
+        ],
+        "Widget.html#.DescriptionList": [
+          "bind",
+          "data",
+          "descript",
+          "descriptionlist",
+          "function",
+          "id",
+          "list",
+          "lt;static&gt",
+          "render",
+          "widget",
+          "widget.descriptionlist"
+        ],
+        "Widget.html#.DataList": [
+          "bind",
+          "data",
+          "datalist",
+          "function",
+          "id",
+          "list",
+          "lt;static&gt",
+          "render",
+          "widget",
+          "widget.datalist"
+        ],
+        "Widget.html#.Input": [
+          "base",
+          "bind",
+          "field",
+          "function",
+          "id",
+          "input",
+          "lt;static&gt",
+          "name",
+          "render",
+          "requir",
+          "simular",
+          "type",
+          "valu",
+          "widget",
+          "widget.input"
         ]
       },
-      "length": 4
+      "length": 8
     },
     "tokenStore": {
       "root": {
@@ -132,6 +187,55 @@ window.lunrData = {
                   }
                 }
               }
+            },
+            "s": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "p": {
+                      "docs": {},
+                      "t": {
+                        "docs": {
+                          "Widget.html#.DescriptionList": {
+                            "ref": "Widget.html#.DescriptionList",
+                            "tf": 10
+                          }
+                        },
+                        "i": {
+                          "docs": {},
+                          "o": {
+                            "docs": {},
+                            "n": {
+                              "docs": {},
+                              "l": {
+                                "docs": {},
+                                "i": {
+                                  "docs": {},
+                                  "s": {
+                                    "docs": {},
+                                    "t": {
+                                      "docs": {
+                                        "Widget.html#.DescriptionList": {
+                                          "ref": "Widget.html#.DescriptionList",
+                                          "tf": 680
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
             }
           },
           "o": {
@@ -163,6 +267,45 @@ window.lunrData = {
                 }
               }
             }
+          },
+          "a": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "a": {
+                "docs": {
+                  "Widget.html#.List": {
+                    "ref": "Widget.html#.List",
+                    "tf": 16.666666666666664
+                  },
+                  "Widget.html#.DescriptionList": {
+                    "ref": "Widget.html#.DescriptionList",
+                    "tf": 20
+                  },
+                  "Widget.html#.DataList": {
+                    "ref": "Widget.html#.DataList",
+                    "tf": 30
+                  }
+                },
+                "l": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "s": {
+                      "docs": {},
+                      "t": {
+                        "docs": {
+                          "Widget.html#.DataList": {
+                            "ref": "Widget.html#.DataList",
+                            "tf": 680
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "i": {
@@ -182,6 +325,40 @@ window.lunrData = {
                   }
                 }
               }
+            },
+            "p": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "Widget.html#.Input": {
+                      "ref": "Widget.html#.Input",
+                      "tf": 676.7857142857143
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "d": {
+            "docs": {
+              "Widget.html#.List": {
+                "ref": "Widget.html#.List",
+                "tf": 16.666666666666664
+              },
+              "Widget.html#.DescriptionList": {
+                "ref": "Widget.html#.DescriptionList",
+                "tf": 20
+              },
+              "Widget.html#.DataList": {
+                "ref": "Widget.html#.DataList",
+                "tf": 20
+              },
+              "Widget.html#.Input": {
+                "ref": "Widget.html#.Input",
+                "tf": 12.5
+              }
             }
           }
         },
@@ -196,6 +373,20 @@ window.lunrData = {
                   "index.html": {
                     "ref": "index.html",
                     "tf": 214
+                  }
+                }
+              }
+            }
+          },
+          "a": {
+            "docs": {},
+            "m": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "Widget.html#.Input": {
+                    "ref": "Widget.html#.Input",
+                    "tf": 12.5
                   }
                 }
               }
@@ -249,6 +440,52 @@ window.lunrData = {
                   }
                 }
               }
+            },
+            "n": {
+              "docs": {},
+              "d": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "r": {
+                    "docs": {
+                      "Widget.html#.List": {
+                        "ref": "Widget.html#.List",
+                        "tf": 10
+                      },
+                      "Widget.html#.DescriptionList": {
+                        "ref": "Widget.html#.DescriptionList",
+                        "tf": 10
+                      },
+                      "Widget.html#.DataList": {
+                        "ref": "Widget.html#.DataList",
+                        "tf": 10
+                      },
+                      "Widget.html#.Input": {
+                        "ref": "Widget.html#.Input",
+                        "tf": 7.142857142857142
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "q": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "r": {
+                    "docs": {
+                      "Widget.html#.Input": {
+                        "ref": "Widget.html#.Input",
+                        "tf": 12.5
+                      }
+                    }
+                  }
+                }
+              }
             }
           }
         },
@@ -271,6 +508,23 @@ window.lunrData = {
                     }
                   }
                 }
+              },
+              "u": {
+                "docs": {},
+                "l": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "r": {
+                      "docs": {
+                        "Widget.html#.Input": {
+                          "ref": "Widget.html#.Input",
+                          "tf": 7.142857142857142
+                        }
+                      }
+                    }
+                  }
+                }
               }
             }
           },
@@ -285,6 +539,32 @@ window.lunrData = {
                     "Widget.html": {
                       "ref": "Widget.html",
                       "tf": 12.5
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "t": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "d": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "r": {
+                      "docs": {},
+                      "d": {
+                        "docs": {
+                          "Widget.html#.List": {
+                            "ref": "Widget.html#.List",
+                            "tf": 10
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -350,6 +630,18 @@ window.lunrData = {
                   "list_class.html": {
                     "ref": "list_class.html",
                     "tf": 110
+                  },
+                  "Widget.html#.List": {
+                    "ref": "Widget.html#.List",
+                    "tf": 686.6666666666666
+                  },
+                  "Widget.html#.DescriptionList": {
+                    "ref": "Widget.html#.DescriptionList",
+                    "tf": 10
+                  },
+                  "Widget.html#.DataList": {
+                    "ref": "Widget.html#.DataList",
+                    "tf": 10
                   }
                 },
                 ":": {
@@ -367,6 +659,56 @@ window.lunrData = {
                               "list_class.html": {
                                 "ref": "list_class.html",
                                 "tf": 1300
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "t": {
+            "docs": {},
+            ";": {
+              "docs": {},
+              "s": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "i": {
+                        "docs": {},
+                        "c": {
+                          "docs": {},
+                          "&": {
+                            "docs": {},
+                            "g": {
+                              "docs": {},
+                              "t": {
+                                "docs": {
+                                  "Widget.html#.List": {
+                                    "ref": "Widget.html#.List",
+                                    "tf": 16.666666666666664
+                                  },
+                                  "Widget.html#.DescriptionList": {
+                                    "ref": "Widget.html#.DescriptionList",
+                                    "tf": 20
+                                  },
+                                  "Widget.html#.DataList": {
+                                    "ref": "Widget.html#.DataList",
+                                    "tf": 20
+                                  },
+                                  "Widget.html#.Input": {
+                                    "ref": "Widget.html#.Input",
+                                    "tf": 12.5
+                                  }
+                                }
                               }
                             }
                           }
@@ -414,6 +756,138 @@ window.lunrData = {
                       "Widget.html": {
                         "ref": "Widget.html",
                         "tf": 1912.5
+                      },
+                      "Widget.html#.List": {
+                        "ref": "Widget.html#.List",
+                        "tf": 10
+                      },
+                      "Widget.html#.DescriptionList": {
+                        "ref": "Widget.html#.DescriptionList",
+                        "tf": 10
+                      },
+                      "Widget.html#.DataList": {
+                        "ref": "Widget.html#.DataList",
+                        "tf": 10
+                      },
+                      "Widget.html#.Input": {
+                        "ref": "Widget.html#.Input",
+                        "tf": 7.142857142857142
+                      }
+                    },
+                    ".": {
+                      "docs": {},
+                      "l": {
+                        "docs": {},
+                        "i": {
+                          "docs": {},
+                          "s": {
+                            "docs": {},
+                            "t": {
+                              "docs": {
+                                "Widget.html#.List": {
+                                  "ref": "Widget.html#.List",
+                                  "tf": 1150
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "d": {
+                        "docs": {},
+                        "e": {
+                          "docs": {},
+                          "s": {
+                            "docs": {},
+                            "c": {
+                              "docs": {},
+                              "r": {
+                                "docs": {},
+                                "i": {
+                                  "docs": {},
+                                  "p": {
+                                    "docs": {},
+                                    "t": {
+                                      "docs": {},
+                                      "i": {
+                                        "docs": {},
+                                        "o": {
+                                          "docs": {},
+                                          "n": {
+                                            "docs": {},
+                                            "l": {
+                                              "docs": {},
+                                              "i": {
+                                                "docs": {},
+                                                "s": {
+                                                  "docs": {},
+                                                  "t": {
+                                                    "docs": {
+                                                      "Widget.html#.DescriptionList": {
+                                                        "ref": "Widget.html#.DescriptionList",
+                                                        "tf": 1150
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "a": {
+                          "docs": {},
+                          "t": {
+                            "docs": {},
+                            "a": {
+                              "docs": {},
+                              "l": {
+                                "docs": {},
+                                "i": {
+                                  "docs": {},
+                                  "s": {
+                                    "docs": {},
+                                    "t": {
+                                      "docs": {
+                                        "Widget.html#.DataList": {
+                                          "ref": "Widget.html#.DataList",
+                                          "tf": 1150
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "i": {
+                        "docs": {},
+                        "n": {
+                          "docs": {},
+                          "p": {
+                            "docs": {},
+                            "u": {
+                              "docs": {},
+                              "t": {
+                                "docs": {
+                                  "Widget.html#.Input": {
+                                    "ref": "Widget.html#.Input",
+                                    "tf": 1150
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -421,26 +895,204 @@ window.lunrData = {
               }
             }
           }
+        },
+        "b": {
+          "docs": {},
+          "i": {
+            "docs": {},
+            "n": {
+              "docs": {},
+              "d": {
+                "docs": {
+                  "Widget.html#.List": {
+                    "ref": "Widget.html#.List",
+                    "tf": 16.666666666666664
+                  },
+                  "Widget.html#.DescriptionList": {
+                    "ref": "Widget.html#.DescriptionList",
+                    "tf": 20
+                  },
+                  "Widget.html#.DataList": {
+                    "ref": "Widget.html#.DataList",
+                    "tf": 20
+                  },
+                  "Widget.html#.Input": {
+                    "ref": "Widget.html#.Input",
+                    "tf": 12.5
+                  }
+                }
+              }
+            }
+          },
+          "a": {
+            "docs": {},
+            "s": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "Widget.html#.Input": {
+                    "ref": "Widget.html#.Input",
+                    "tf": 7.142857142857142
+                  }
+                }
+              }
+            }
+          }
+        },
+        "f": {
+          "docs": {},
+          "u": {
+            "docs": {},
+            "n": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "o": {
+                      "docs": {},
+                      "n": {
+                        "docs": {
+                          "Widget.html#.List": {
+                            "ref": "Widget.html#.List",
+                            "tf": 110
+                          },
+                          "Widget.html#.DescriptionList": {
+                            "ref": "Widget.html#.DescriptionList",
+                            "tf": 110
+                          },
+                          "Widget.html#.DataList": {
+                            "ref": "Widget.html#.DataList",
+                            "tf": 110
+                          },
+                          "Widget.html#.Input": {
+                            "ref": "Widget.html#.Input",
+                            "tf": 110
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "i": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "d": {
+                  "docs": {
+                    "Widget.html#.Input": {
+                      "ref": "Widget.html#.Input",
+                      "tf": 12.5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "o": {
+          "docs": {},
+          "r": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "r": {
+                  "docs": {
+                    "Widget.html#.List": {
+                      "ref": "Widget.html#.List",
+                      "tf": 16.666666666666664
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "t": {
+          "docs": {},
+          "y": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "Widget.html#.Input": {
+                    "ref": "Widget.html#.Input",
+                    "tf": 7.142857142857142
+                  }
+                }
+              }
+            }
+          }
+        },
+        "v": {
+          "docs": {},
+          "a": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "u": {
+                "docs": {
+                  "Widget.html#.Input": {
+                    "ref": "Widget.html#.Input",
+                    "tf": 12.5
+                  }
+                }
+              }
+            }
+          }
         }
       },
-      "length": 18
+      "length": 65
     },
     "corpusTokens": [
       "augmented.j",
+      "base",
+      "bind",
       "class",
+      "data",
+      "datalist",
+      "descript",
+      "descriptionlist",
       "develop",
       "document",
+      "field",
+      "function",
       "global",
+      "id",
       "index",
+      "input",
       "list",
       "list:class",
+      "lt;static&gt",
       "modul",
+      "name",
       "next",
+      "order",
       "present",
       "readm",
+      "render",
+      "requir",
       "simpli",
+      "simular",
       "small",
-      "widget"
+      "standard",
+      "type",
+      "valu",
+      "widget",
+      "widget.datalist",
+      "widget.descriptionlist",
+      "widget.input",
+      "widget.list"
     ],
     "pipeline": [
       "trimmer",
@@ -492,6 +1144,46 @@ window.lunrData = {
       "summary": "",
       "description": "Widgets and small presentation modules",
       "body": ""
+    },
+    "Widget.html#.List": {
+      "id": "Widget.html#.List",
+      "kind": "function",
+      "title": "&lt;static&gt; List( id, data, ordered, binding )",
+      "longname": "Widget.List",
+      "name": "List",
+      "tags": "Widget.List List",
+      "summary": "",
+      "description": "List widget - renders a standard list"
+    },
+    "Widget.html#.DescriptionList": {
+      "id": "Widget.html#.DescriptionList",
+      "kind": "function",
+      "title": "&lt;static&gt; DescriptionList( id, data, binding )",
+      "longname": "Widget.DescriptionList",
+      "name": "DescriptionList",
+      "tags": "Widget.DescriptionList DescriptionList",
+      "summary": "",
+      "description": "DescriptionList widget - renders a description list"
+    },
+    "Widget.html#.DataList": {
+      "id": "Widget.html#.DataList",
+      "kind": "function",
+      "title": "&lt;static&gt; DataList( id, data, binding )",
+      "longname": "Widget.DataList",
+      "name": "DataList",
+      "tags": "Widget.DataList DataList",
+      "summary": "",
+      "description": "DataList widget - renders a data list"
+    },
+    "Widget.html#.Input": {
+      "id": "Widget.html#.Input",
+      "kind": "function",
+      "title": "&lt;static&gt; Input( field, name, value, id, required, binding )",
+      "longname": "Widget.Input",
+      "name": "Input",
+      "tags": "Widget.Input Input",
+      "summary": "",
+      "description": "Input widget - renders an input or simular based on type"
     }
   }
 };
